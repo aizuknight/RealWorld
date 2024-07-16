@@ -1,6 +1,6 @@
 package me.aizuknight.raspberrypi.commands;
 
-import me.aizuknight.raspberrypi.Utilities.BashUtilities;
+import me.aizuknight.raspberrypi.utilities.BashUtilities;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

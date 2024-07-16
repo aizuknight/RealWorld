@@ -1,7 +1,7 @@
 package me.aizuknight.raspberrypi.tasks;
 
 import me.aizuknight.raspberrypi.RaspberryPi;
-import me.aizuknight.raspberrypi.Utilities.BroadcastUtilities;
+import me.aizuknight.raspberrypi.utilities.BroadcastUtilities;
 import me.aizuknight.raspberrypi.modules.AbstractDistanceSensor;
 import me.aizuknight.raspberrypi.modules.python.Hcsr04;
 import me.aizuknight.raspberrypi.scoreboard.PiScoreboardManager;

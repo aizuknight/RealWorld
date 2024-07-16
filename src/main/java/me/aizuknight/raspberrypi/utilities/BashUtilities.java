@@ -1,4 +1,4 @@
-package me.aizuknight.raspberrypi.Utilities;
+package me.aizuknight.raspberrypi.utilities;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

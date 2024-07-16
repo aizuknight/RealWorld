@@ -1,4 +1,4 @@
-package me.aizuknight.raspberrypi.Utilities;
+package me.aizuknight.raspberrypi.utilities;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
