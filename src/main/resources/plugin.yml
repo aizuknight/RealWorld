@@ -1,0 +1,12 @@
+name: RaspberryPi
+version: '${project.version}'
+main: me.aizuknight.raspberrypi.RaspberryPi
+api-version: '1.12'
+
+commands:
+  message:
+    aliases: msg
+  gpio:
+    aliases: g
+  test:
+    aliases: t
