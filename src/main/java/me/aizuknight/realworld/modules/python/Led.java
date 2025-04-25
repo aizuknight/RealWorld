@@ -1,6 +1,6 @@
-package me.aizuknight.raspberrypi.modules.python;
+package me.aizuknight.realworld.modules.python;
 
-import me.aizuknight.raspberrypi.modules.AbstractLed;
+import me.aizuknight.realworld.modules.AbstractLed;
 import org.bukkit.Bukkit;
 
 import java.util.logging.Logger;

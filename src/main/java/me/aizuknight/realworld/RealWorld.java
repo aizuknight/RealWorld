@@ -1,15 +1,15 @@
-package me.aizuknight.raspberrypi;
+package me.aizuknight.realworld;
 
-import me.aizuknight.raspberrypi.commands.GpioCommand;
-import me.aizuknight.raspberrypi.commands.MessageCommand;
-import me.aizuknight.raspberrypi.listeners.PlayerJoinListener;
-import me.aizuknight.raspberrypi.scoreboard.PiScoreboardManager;
-import me.aizuknight.raspberrypi.tasks.TemperatureHumiditySensorTask;
-import me.aizuknight.raspberrypi.tasks.AbstractTask;
-import me.aizuknight.raspberrypi.tasks.DistanceSensorTask;
+import me.aizuknight.realworld.commands.GpioCommand;
+import me.aizuknight.realworld.commands.MessageCommand;
+import me.aizuknight.realworld.listeners.PlayerJoinListener;
+import me.aizuknight.realworld.scoreboard.PiScoreboardManager;
+import me.aizuknight.realworld.tasks.TemperatureHumiditySensorTask;
+import me.aizuknight.realworld.tasks.AbstractTask;
+import me.aizuknight.realworld.tasks.DistanceSensorTask;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class RaspberryPi extends JavaPlugin {
+public final class RealWorld extends JavaPlugin {
     private static PiScoreboardManager scoreboardManager;
     private static AbstractTask[] tasks;
 

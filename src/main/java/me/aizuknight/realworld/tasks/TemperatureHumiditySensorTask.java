@@ -1,9 +1,9 @@
-package me.aizuknight.raspberrypi.tasks;
+package me.aizuknight.realworld.tasks;
 
-import me.aizuknight.raspberrypi.RaspberryPi;
-import me.aizuknight.raspberrypi.modules.AbstractTemperatureHumiditySensor;
-import me.aizuknight.raspberrypi.modules.python.Dht11;
-import me.aizuknight.raspberrypi.scoreboard.PiScoreboardManager;
+import me.aizuknight.realworld.RealWorld;
+import me.aizuknight.realworld.modules.AbstractTemperatureHumiditySensor;
+import me.aizuknight.realworld.modules.python.Dht11;
+import me.aizuknight.realworld.scoreboard.PiScoreboardManager;
 import org.bukkit.ChatColor;
 
 import java.util.AbstractMap;
@@ -23,7 +23,7 @@ public class TemperatureHumiditySensorTask extends AbstractTask {
             double thi = temperatureHumiditySensor.getTHI();
             if (thi == -1) return;
             Map.Entry<String, String> thiEntry = evaluate(thi);
-            PiScoreboardManager scoreboardManager = RaspberryPi.getScoreboardManager();
+            PiScoreboardManager scoreboardManager = RealWorld.getScoreboardManager();
             scoreboardManager.updateThi(thiEntry);
             logger.info("THI: " + thi);
         }).start();

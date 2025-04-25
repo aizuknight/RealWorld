@@ -1,6 +1,6 @@
-package me.aizuknight.raspberrypi.modules.python;
+package me.aizuknight.realworld.modules.python;
 
-import me.aizuknight.raspberrypi.modules.AbstractLcdDisplay;
+import me.aizuknight.realworld.modules.AbstractLcdDisplay;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,7 +1,7 @@
-package me.aizuknight.raspberrypi.commands;
+package me.aizuknight.realworld.commands;
 
-import me.aizuknight.raspberrypi.modules.AbstractLcdDisplay;
-import me.aizuknight.raspberrypi.modules.python.LcdDisplayImpl;
+import me.aizuknight.realworld.modules.AbstractLcdDisplay;
+import me.aizuknight.realworld.modules.python.LcdDisplayImpl;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

@@ -1,6 +1,6 @@
 name: RaspberryPi
 version: '${project.version}'
-main: me.aizuknight.raspberrypi.RaspberryPi
+main: me.aizuknight.realworld.RealWorld
 api-version: '1.12'
 
 commands:

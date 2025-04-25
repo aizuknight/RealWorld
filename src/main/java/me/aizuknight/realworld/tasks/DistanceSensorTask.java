@@ -1,10 +1,10 @@
-package me.aizuknight.raspberrypi.tasks;
+package me.aizuknight.realworld.tasks;
 
-import me.aizuknight.raspberrypi.RaspberryPi;
-import me.aizuknight.raspberrypi.utilities.BroadcastUtilities;
-import me.aizuknight.raspberrypi.modules.AbstractDistanceSensor;
-import me.aizuknight.raspberrypi.modules.python.Hcsr04;
-import me.aizuknight.raspberrypi.scoreboard.PiScoreboardManager;
+import me.aizuknight.realworld.RealWorld;
+import me.aizuknight.realworld.utilities.BroadcastUtilities;
+import me.aizuknight.realworld.modules.AbstractDistanceSensor;
+import me.aizuknight.realworld.modules.python.Hcsr04;
+import me.aizuknight.realworld.scoreboard.PiScoreboardManager;
 import org.bukkit.ChatColor;
 
 import java.util.AbstractMap;
@@ -23,7 +23,7 @@ public class DistanceSensorTask extends AbstractTask {
         new Thread(() -> {
             double distance = distanceSensor.getDistance();
             Map.Entry<String, String> distanceEntry = evaluate(distance);
-            PiScoreboardManager scoreboardManager = RaspberryPi.getScoreboardManager();
+            PiScoreboardManager scoreboardManager = RealWorld.getScoreboardManager();
             scoreboardManager.updateDistance(distanceEntry);
             if(distance == -1.0) return;
             logger.info("Distance: " + distance + "cm");

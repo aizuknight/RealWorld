@@ -1,6 +1,6 @@
-package me.aizuknight.raspberrypi.modules.python;
+package me.aizuknight.realworld.modules.python;
 
-import me.aizuknight.raspberrypi.modules.AbstractDistanceSensor;
+import me.aizuknight.realworld.modules.AbstractDistanceSensor;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

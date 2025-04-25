@@ -1,4 +1,4 @@
-package me.aizuknight.raspberrypi.modules.python;
+package me.aizuknight.realworld.modules.python;
 
 import org.bukkit.Bukkit;
 

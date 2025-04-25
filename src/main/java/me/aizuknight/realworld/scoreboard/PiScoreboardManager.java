@@ -1,4 +1,4 @@
-package me.aizuknight.raspberrypi.scoreboard;
+package me.aizuknight.realworld.scoreboard;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

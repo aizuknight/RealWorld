@@ -1,6 +1,6 @@
-package me.aizuknight.raspberrypi.modules.python;
+package me.aizuknight.realworld.modules.python;
 
-import me.aizuknight.raspberrypi.modules.AbstractTemperatureHumiditySensor;
+import me.aizuknight.realworld.modules.AbstractTemperatureHumiditySensor;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
